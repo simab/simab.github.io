@@ -14,6 +14,56 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Tahoma:700' rel='stylesheet' type='text/css'>
+
+
+	 <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+        }
+        
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            padding: 15px;
+            height: 100vh;
+            position: fixed;
+        }
+        
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+        
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .sidebar ul li a:hover {
+            background-color: #575757;
+            padding-left: 10px;
+        }
+        
+        .content {
+            margin-left: 220px; /* Add a margin to avoid overlap with sidebar */
+            padding: 20px;
+        }
+        
+        .content h2 {
+            margin-top: 60px; /* Space out sections */
+        }
+    </style>
 </head>
 <body>
 
@@ -51,53 +101,31 @@
 	  </div>
 	</nav>
 
-
-	<!-- Contact Info on the Sidebar -->
-            <div class="col-md-5">
-                <div style="font-family: 'Tahoma', sans-serif; font-size: 32px;"><b>Gov 20: Foundations of Comparative Politics</b></div><br>
-		    
-                <p><b>Section syllabus</b><br>
-                <p>Week 1: Introduction and Approaches to Comparative Politics<br>
-                Week 2<br>
-                </p>
-            </div>
   
   <!-- Page Content -->
+	<body>
     <div class="container">
-
-        <div class="row">
-
-            <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
-                
-                <div style="margin-top:3%; text-align:justify;">
-		<div style="font-family: 'Tahoma', sans-serif; font-size: 32px;"><b>Summary</b></div><br>
-
-
-		<p> This course introduces students to major theories and concepts in comparative politics, as well as thebasic tools of comparative analysis. It explores competing theoretical approaches (Modernization,Marxist, cultural, institutionalist, and leadership-centered) to four major phenomena in world politics:(1) economic development; (2) democratization; (3) social revolution; and (4) ethnic conflict. It alsoexplores debates about the role of political institutions (e.g., presidential/parliamentary systems,political parties, electoral systems), states and state-building, and civil society in shaping politicaloutcomes. These theoretical debates are examined through an analysis of cases from across theglobe, including Africa (Congo, Liberia, Rwanda, South Africa), the Americas (Chile, United States),Asia (China, India, South Korea, Taiwan), Western Europe (Italy, Germany, Great Britain), EasternEurope (Russia, Yugoslavia), and the Middle East (Egypt, Iran, Lebanon). The final week examinesthe United States in comparative perspective.</p>
-
-
-			
-                </div>
-            </div> 
-
-           
-            
-
-
-            
-        </div> 
-
-
-
-
-		
+        <div class="sidebar">
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li><a href="#section4">Section 4</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 id="section1">Section 1</h2>
+            <p>Content for section 1.</p>
+            <h2 id="section2">Section 2</h2>
+            <p>Content for section 2.</p>
+            <h2 id="section3">Section 3</h2>
+            <p>Content for section 3.</p>
+            <h2 id="section4">Section 4</h2>
+            <p>Content for section 4.</p>
+        </div>
     </div>
-    <!-- /.container -->
-    
-    <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
+</body>
+</html> 
 </body>
 
 </html>
