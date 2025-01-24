@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Teaching</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Tahoma:700' rel='stylesheet' type='text/css'>
+
+
+	 <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+        }
+        
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            padding: 15px;
+            height: 100vh;
+            position: fixed;
+        }
+        
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+        
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .sidebar ul li a:hover {
+            background-color: #575757;
+            padding-left: 10px;
+        }
+        
+        .content {
+            margin-left: 220px; /* Add a margin to avoid overlap with sidebar */
+            padding: 20px;
+        }
+        
+        .content h2 {
+            margin-top: 60px; /* Space out sections */
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+			  			<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="projects.html">Projects</a></li>
+			  <li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="gov20_fall24.html">Gov 20: Foundations of Comparative Politics</a></li>
+					  <li><a href="gov20_fall24.html">Gov 51: Data Analysis and Politics</a></li>
+
+					  <li role="separator" class="divider"></li>
+					  <li><a href="other_teaching.html">Other teaching</a></li>
+					</ul>
+				  </li>
+				  <li><a href="Biondi_academic_CV-9.pdf">CV</a></li> 
+
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+  
+  <!-- Page Content -->
+	<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#section0">Section syllabus</a></li>
+<!--
+                <li><a href="#section1">9/3: Introduction + Approaches </a></li>
+                <li><a href="#section2">9/10: Politics of Economic Development</a></li>
+                <li><a href="#section3">9/17: Politics of Late Development</a></li>
+                <li><a href="#section4">9/24: The State</a></li>
+                <li><a href="#section5">10/1: Democracy + Democratization</a></li>
+                <li><a href="#section6">10/8: Democracy Today</a></li>
+                <li><a href="#section7">10/15: Authoritarianism</a></li>
+                <li><a href="#section8">10/22: Revolution (1)</a></li>
+                <li><a href="#section9">10/29: Revolution (2)</a></li>
+                <li><a href="#section10">11/5: Ethnicity</a></li>
+                <li><a href="#section11">11/12: Institutions</a></li>
+                <li><a href="#section12">11/19: Parties</a></li>
+                <li><a href="#section13">11/26: Civil Society</a></li>
+                <li><a href="#section14">12/3: US in CP Perspective</a></li> -->
+            </ul>
+        </div>
+        <div class="content">
+            <h2 id="section0">Section syllabus</h2>
+		
+            <p><b>TF</b>: Sima Biondi </p>
+	    <p><b>Sections</b>: Thursdays at 3pm and 4:30pm </p>
+	    <p><b>Office hours</b>: (usually) Thursdays 1-3pm @ Jenny's Cafe (inside the Harvard Art Museum). Sign up <a href="https://calendar.app.google/u53MgXyNrtEacojr7">here</a>!</p>
+		<p>Office hours sign up link and location are listed above. Please feel free to drop-in to talk about the assignments, course material, or anything else you need. If the listed hours above do not work, email me, and we’ll find an alternative time to meet.</p>
+	    <p><b>Contact</b>: Emailing me (sbiondi [at] g.harvard.edu) is the best way to contact me. I promise to respond to your emails within (usually) 24 hours, except in the day before an assignment is due. All emails should have a subject line that begins with "Gov20:". </p>
+	   	<!--
+
+		<p><b>Assignments + deadlines</b> 
+		    <ul>
+  			<li>Weekly: Section participation (15%)</li>
+  			<li>October 8: Essay 1 (10%)</li>
+  			<li>October 17: Midterm (20%)</li>
+  			<li>November 12: Essay 2 (20%)</li>
+  			<li>Date TBD: Final exam (35%)</li>
+		 </ul>
+		--> 
+		<p><a href="teaching/sectionSyllabus/Gov20sectionSyllabus-7.pdf"><b>Section policies and expectations</b></a></p>
+		<div style="margin-left: 20px;">
+			Attendance, participation, laptop, and paper policies can be found on the <a href="teaching/sectionSyllabus/Gov20sectionSyllabus-7.pdf">extended section syllabus</a>.
+			
+  	<!--
+
+			<p><b>Finding me</b>: Either at office hours (<a href="https://calendar.app.google/u53MgXyNrtEacojr7">Thursdays @1-3pm</a>) in Jenny's Cafe at the Harvard Museum or email me.</p>
+			<p><b>Attendance</b>: Section attendance is mandatory. Sometimes life happens, so every student is permitted one unexcused absence—no questions asked. After that, students must provide written documentation (a doctor’s note, a letter from your Dean, etc.) for an absence to be excused.</p>
+			<p><b>Participation</b>: Section participation is crucial for the learning process (and fun!). It constitutes 15% of your grade, and students are expected come prepared to actively engage in section via questions, discussion, and debate. Student can participate by being a Text Reviewer (<i>What does the text say?</i>), Analyst (<i>What do you think about what the text says?</i>), Respondent (<i>What do you think about your classmates analysis of the text?</i>), and Synthesizer (<i>Where is this discussion going? What are we missing?</i>). We will discuss more about this in our first section as well as set class norms for discussion. If you have any questions, please feel free to reach out to me. </p>
+			<p><b>Laptops</b>: Laptops are not permitted for use in section except during pre-exam review sessions. If you take notes on your laptop during lecture, I highly recommend printing them prior to section for reference and annotation.</p>
+			<p><b>Readings</b>: You are expected to read all assigned materials for section every week. I may highlight the key readings, but you remain responsible for all assigned readings.</p>
+			<p><b>Papers</b>: There are two short papers (6-8 pages) in the course. Due by email (sbiondi [at] g.harvard.edu) on October 8 and November 12 at 5 pm.
+				    <ul>
+		  			<li>Please come to my office hours to discuss writing strategies and paper ideas prior to the due date of the paper. While I cannot review drafts of papers, I can encourage you to come to my office hours to discuss your ideas and outlines.</li>
+		  			<li>The papers are graded based on the strength of your argument and supporting evidence, not your ability to summarize. If you have any questions, reach out.</li>
+		 		</ul>
+			</p>
+    	</div>
+	--> 
+	    <br><p><b><a href="https://forms.gle/MBRzfaErDXEAsaWo8">Section suggestion box</a></b><br>Please feel free throughout the semester to give your anonymous input about topics, concepts, readings, or news stories you’d like to cover in section here.</p>
+			
+            <h2 id="section1">1) Introduction and Approaches to Comparative Politics</h2>
+		<br><p><b><a href="teaching/sectionSlides/01_Gov20sectionSlides.pdf">Section 1 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/01_Gov20weekRecaps.pdf">Week 1 Recap</a></b><br>
+		<br><p><b><a href="teaching/Gov 20 Section 1 Norms.pdf">Section 1 (Thursday 3pm) Norms</a></b><br>
+		<br><p><b><a href="teaching/Gov 20 Section 2 Norms.pdf">Section 2 (Thursday 4:30) Norms</a></b><br>
+
+            <h2 id="section2">2) The Politics of Economic Development:  Modernization Theory and its Alternatives</h2>
+		<br><p><b><a href="teaching/sectionSlides/02_Gov20sectionSlides.pdf">Section 2 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/02_Gov20weekRecaps.pdf">Week 2 Recap</a></b><br>
+		<br><p><b><a href="teaching/recaps/02a_Gov20weekRecaps.pdf">Week 2 Handout</a></b><br>
+
+			
+	    <h2 id="section3">3) The Politics of Late Development: State- versus Market-Led Approaches</h2>
+		<br><p><b><a href="teaching/sectionSlides/03_Gov20sectionSlides.pdf">Section 3 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/03_Gov20weekRecaps.pdf">Week 3 Recap</a></b><br>
+			
+	    <h2 id="section4">4) The State, State-Building, and State Weakness</h2>
+		<br><p><b><a href="teaching/sectionSlides/04_Gov20sectionSlides.pdf">Section 4 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/04_Gov20weekRecaps.pdf">Week 4 Recap</a></b><br>
+			
+	    <h2 id="section5">5) Democracy and Democratization</h2
+		<br><p><b><a href="teaching/sectionSlides/05_Gov20sectionSlides.pdf">Section 5 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/05_Gov20weekRecaps.pdf">Week 5 Recap</a></b><br>
+		<br><p><b><a href="teaching/Gov20writes.pdf">Tips for essays in Gov 20</a></b><br>
+			
+
+	    <h2 id="section6">6) Democratization and Democratic Breakdown in the Contemporary World</h2>
+		<br><p><b><a href="teaching/sectionSlides/06_Gov20sectionSlides.pdf">Section 6 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/06_Gov20weekRecaps.pdf">Week 6 Recap</a></b><br>
+
+
+			
+	    <h2 id="section7">7) Authoritarianism</h2>
+		<br><p><b><a href="teaching/sectionSlides/07_Gov20sectionSlides.pdf">Section 7 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/07_Gov20weekRecaps.pdf">Week 7 Recap</a></b><br>
+
+			
+	    <h2 id="section8">8) Explaining Social Revolution I</h2>
+		<br><p><b><a href="teaching/sectionSlides/08_Gov20sectionSlides.pdf">Section 8 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/08_Gov20weekRecaps.pdf">Week 8 Recap</a></b><br>
+
+			
+	    <h2 id="section9">9) Explaining Social Revolution II</h2>
+		<br><p><b><a href="teaching/sectionSlides/09_Gov20sectionSlides.pdf">Section 9 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/09_Gov20weekRecaps_1.pdf">Week 9 Recap</a></b><br>
+		<br><p><b><a href="teaching/handouts/09_revolutions_handout.pdf">Week 9 Handout</a></b><br>
+
+
+	    <h2 id="section10">10) Ethnicity and Ethnic Conflict</h2>
+		<br><p><b><a href="teaching/sectionSlides/10_Gov20sectionSlides.pdf">Section 10 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/10_Gov20weekRecaps.pdf">Week 10 Recap</a></b><br>
+		<br><p><b><a href="teaching/handouts/10_ethnicity_theories_handout.pdf">Week 10 Handout</a></b><br>
+			
+			
+	    <h2 id="section11">11) Do Institutions Matter?</h2>
+		<br><p><b><a href="teaching/sectionSlides/11_Gov20sectionSlides.pdf">Section 11 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/11_Gov20weekRecaps.pdf">Week 11 Recap</a></b><br>
+
+			
+	    <h2 id="section12">12) Parties, Electoral Systems, and Political Representation</h2>
+		<br><p><b><a href="teaching/sectionSlides/12_Gov20sectionSlides.pdf">Section 12 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/12_Gov20weekRecaps.pdf">Week 12 Recap</a></b><br>
+			
+			
+	    <h2 id="section13">13) Civil Society and Social Capital</h2>
+			
+		<br><p><b><a href="teaching/sectionSlides/13_14_Gov20sectionSlides.pdf">Section 13/14 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/13_Gov20weekRecaps.pdf">Week 13 Recap</a></b><br>
+			
+	    <h2 id="section14">14) The United States in Comparative Perspective</h2>
+			
+		<br><p><b><a href="teaching/sectionSlides/13_14_Gov20sectionSlides.pdf">Section 13/14 slides</a></b><br>
+		<br><p><b><a href="teaching/recaps/14_Gov20weekRecaps.pdf">Week 14 Recap</a></b><br>
+
+        </div>
+    </div>
+</body>
+</html> 
+</body>
+
+</html>
