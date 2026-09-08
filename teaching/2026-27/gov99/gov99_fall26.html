@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Teaching: Gov99R</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Tahoma:700' rel='stylesheet' type='text/css'>
+
+
+	 <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #A51C30;
+            padding: 15px;
+            height: 100vh;
+            position: fixed;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #7A1524;
+            padding-left: 10px;
+        }
+
+        .content {
+            margin-left: 220px; /* Add a margin to avoid overlap with sidebar */
+            padding: 20px;
+        }
+
+        .content h2 {
+            margin-top: 60px; /* Space out sections */
+            border-bottom: 2px solid #A51C30;
+            padding-bottom: 6px;
+        }
+
+        /* Bootstrap 3 doesn't support nested dropdowns out of the box */
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu > .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -6px;
+            margin-left: -1px;
+            display: none;
+        }
+        .dropdown-submenu:hover > .dropdown-menu {
+            display: block;
+        }
+        .dropdown-submenu > a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-left-color: #ccc;
+            margin-top: 5px;
+            margin-right: -10px;
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+			  			<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="https://simab.github.io/index.html">Home</a></li>
+				  <li><a href="https://simab.github.io/projects.html">Projects</a></li>
+			  <li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="https://simab.github.io/teaching/2026-27/gov20/gov20_fall26.html">Gov 20: Foundations of Comparative Politics (Fall 2026)</a></li>
+						<li><a href="https://simab.github.io/teaching/2026-27/gov99/gov99_fall26.html">Gov 99R: Thesis Tutorial (Fall 2026)</a></li>
+						<li role="separator" class="divider"></li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="-1">Other teaching</a>
+							<ul class="dropdown-menu">
+								<li><a href="https://simab.github.io/teaching/2024-25/gov20/gov20_fall24.html">Gov 20: Foundations of Comparative Politics (Fall 2024)</a></li>
+								<li><a href="https://simab.github.io/teaching/2024-25/gov51/gov51_spring25.html">Gov 51: Data Analysis and Politics (Spring 2025)</a></li>
+							</ul>
+						</li>
+					</ul>
+				  </li>
+				  <li><a href="Biondi_academic_CV-9.pdf">CV</a></li>
+
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+
+  <!-- Page Content -->
+	<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#section0">Seminar syllabus</a></li>
+                <li><a href="#section1">9/1: Orientation</a></li>
+                <li><a href="#section2">Week of 9/14</a></li>
+                <li><a href="#section3">Week of 9/21</a></li>
+                <li><a href="#section4">Week of 10/5</a></li>
+                <li><a href="#section5">Week of 10/19</a></li>
+                <li><a href="#section6">Week of 11/2</a></li>
+                <li><a href="#section7">Week of 11/9</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 id="section0">Seminar syllabus</h2>
+
+            <p><b>TF</b>: Sima Biondi </p>
+	    <p><b>My sections</b>: D004 (Wednesdays 3:00-4:15pm) and D005 (Wednesdays 4:30-5:45pm)</p>
+	    <p><b>Contact</b>: sbiondi@g.harvard.edu</p>
+	    <p><b>Course Head</b>: Dr. Sergio Imparato (sergioimparato@fas.harvard.edu, CGIS K151C)</p>
+	    <p><b>Instructional staff</b>: Dr. Gloria Ayee, Julie Weaver, Sima Biondi, Priyanka Sethy, Tomer Perry</p>
+
+	    <p><b>Mandatory thesis orientation</b>: Tuesday, September 1, 4:30-5:45pm, CGIS S030 (plenary session, all sections). First seminar meetings are the week of September 14.</p>
+
+	    <h3>What Gov 99R is for</h3>
+	    <p>Gov 99R supplements the advice and support you get from your primary thesis advisor, and runs through the end of the writing process in March 2027. All Government concentrators (or joint concentrators with Government as primary field) writing a thesis must complete both semesters to submit for honors consideration.</p>
+	    <p>Your thesis advisor remains the person responsible for your thesis; Gov 99R is here to help you structure your writing process, refine how you present your findings, get constructive peer feedback, and stay on track.</p>
+
+	    <h3>Grading</h3>
+	    <p>Gov 99R is graded <b>SAT/UNSAT</b>. Failing to attend seminar or complete any required writing assignment results in an automatic UNSAT. A SAT grade requires attending all seminars, completing all assignments, and (for the year-long grade) submitting your thesis to the Undergraduate Program Office by the March deadline. The thesis grade for honors is evaluated separately from the Gov 99R SAT/UNSAT grade.</p>
+
+	    <h3>Fall 2026 assignments</h3>
+	    <p><i>All assignments are due by 11:59pm on Canvas and to your thesis advisor, unless noted.</i></p>
+	    <ul>
+	        <li><b>9/13</b>: Preliminary statement of research question and methods (1-2 paragraphs)</li>
+	        <li><b>9/20</b>: Thesis proposal draft (1,500 words)</li>
+	        <li><b>9/27</b>: Revised thesis proposal (submit with a coversheet signed by your thesis advisor, not your Gov 99R TF)</li>
+	        <li><b>10/18</b>: Academic engagement chapter draft (10-15 pages, e.g. a literature review)</li>
+	        <li><b>11/8</b>: Draft of a substantive empirical or analytical chapter (15-20 pages)</li>
+	        <li><b>12/6</b>: Revised substantive chapter — at least 7,500 words (~30 double-spaced pages) submitted to your thesis advisor; this plus seminar participation forms your fall Gov 99R grade</li>
+	        <li><b>~March 2027</b>: Final thesis due to the Undergraduate Program Office (exact date TBD per Canvas)</li>
+	    </ul>
+
+	    <h3>Policies</h3>
+	    <p><b>Attendance</b>: Mandatory. Come prepared to give thoughtful, constructive feedback on your peers' work — minimal or unhelpful comments count as an incomplete assignment.</p>
+	    <p><b>Readings</b>: No required textbook. You'll get an electronic copy of <i>A Guide to Writing a Thesis in Government</i> at the first meeting (read it before the second session); your TF may assign additional articles, chapters, or thesis excerpts tailored to your seminar.</p>
+	    <p><b>Collaboration</b>: You're encouraged to discuss your topic with peers in and out of class, but no collaborative research or writing is permitted — all submitted work must be your own, with standard citation practices.</p>
+	    <p><b>AI policy</b>: Generative AI tools (ChatGPT or otherwise) are forbidden at every stage of the work process, including preliminary ones. Using them constitutes academic misconduct.</p>
+
+            <h2 id="section1">1) Thesis Orientation — September 1</h2>
+            <p><i>Tuesday, September 1, 4:30-5:45pm, CGIS S030.</i></p>
+            <p>Plenary session: general introduction to the thesis-writing process in the Government Department. Not a Sima-specific section — all Gov 99R students attend together.</p>
+
+            <h2 id="section2">2) Week of September 14</h2>
+            <p>Introductions; framing questions and puzzles; how your thesis is graded; structuring your thesis-writing process; making the most of meetings with your thesis advisor.</p>
+
+            <h2 id="section3">3) Week of September 21</h2>
+            <p>Discussion of the thesis proposal draft; theories and hypotheses or normative arguments; research or argument design; finding and managing sources.</p>
+            <p><i>No class the week of September 28.</i></p>
+
+            <h2 id="section4">4) Week of October 5</h2>
+            <p>Discussion of the final thesis proposal and brainstorming on the components of the academic engagement chapter; writing literature reviews; peer review guidelines.</p>
+            <p><i>No class the week of October 12.</i></p>
+
+            <h2 id="section5">5) Week of October 19</h2>
+            <p>Thesis organization; variables and data collection (empirical); textual analysis and logical reasoning (theory).</p>
+            <p><i>No class the week of October 26.</i></p>
+
+            <h2 id="section6">6) Week of November 2</h2>
+            <p>Discussion of the substantive chapter assignment; describing and presenting different kinds of evidence (empirical); structuring and ordering reasons in a normative argument (theory).</p>
+
+            <h2 id="section7">7) Week of November 9 (last Gov 99R meeting of the fall)</h2>
+            <p>In-class review of the substantive empirical or analytical assignment drafts.</p>
+
+            <p style="margin-top: 40px; font-size: 0.85em; color: #666;"><i>Note: seminars are grouped by thematic/regional/methodological interest, so not every Gov 99R seminar covers exactly the same material each week — the topics above are the general syllabus; your specific readings and discussion will be tailored to our seminar.</i></p>
+
+        </div>
+    </div>
+</body>
+</html>
